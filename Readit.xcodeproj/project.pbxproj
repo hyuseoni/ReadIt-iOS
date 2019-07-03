@@ -20,6 +20,7 @@
 		B91105C922CC896600B1184D /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91105C722CC896600B1184D /* UIView+Extensions.swift */; };
 		B91105CA22CC896600B1184D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91105C822CC896600B1184D /* UIImageView+Extensions.swift */; };
 		B91105CD22CC898F00B1184D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91105CC22CC898F00B1184D /* ViewController.swift */; };
+		B91105D022CC906200B1184D /* Sign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91105CF22CC906200B1184D /* Sign.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B91105C722CC896600B1184D /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		B91105C822CC896600B1184D /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		B91105CC22CC898F00B1184D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B91105CF22CC906200B1184D /* Sign.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sign.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				77A4737D22C9A08600756996 /* AppDelegate.swift */,
-				B91105CB22CC897D00B1184D /* Web */,
 				B91105BC22CC88E000B1184D /* Utill */,
+				B91105CE22CC903600B1184D /* Sign */,
 				B91105AD22CC885500B1184D /* Main */,
+				B91105CB22CC897D00B1184D /* Web */,
 				77A4738422C9A08700756996 /* Assets.xcassets */,
 				77A4738622C9A08700756996 /* LaunchScreen.storyboard */,
 				77A4738922C9A08700756996 /* Info.plist */,
@@ -147,6 +150,14 @@
 				B91105CC22CC898F00B1184D /* ViewController.swift */,
 			);
 			path = Web;
+			sourceTree = "<group>";
+		};
+		B91105CE22CC903600B1184D /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				B91105CF22CC906200B1184D /* Sign.storyboard */,
+			);
+			path = Sign;
 			sourceTree = "<group>";
 		};
 		DD3E21CF349C29ADCC8B5D52 /* Frameworks */ = {
@@ -218,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A4738822C9A08700756996 /* LaunchScreen.storyboard in Resources */,
+				B91105D022CC906200B1184D /* Sign.storyboard in Resources */,
 				B91105BA22CC889300B1184D /* categoryCVC.xib in Resources */,
 				B91105AF22CC887A00B1184D /* Main.storyboard in Resources */,
 				B91105B822CC889300B1184D /* contentsTVCTableViewCell.xib in Resources */,

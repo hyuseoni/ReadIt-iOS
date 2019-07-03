@@ -366,11 +366,22 @@
                     </tabBar>
                     <connections>
                         <segue destination="OJw-SN-tEf" kind="relationship" relationship="viewControllers" id="1PJ-Wg-ksK"/>
+                        <segue destination="h4J-n7-3Bm" kind="relationship" relationship="viewControllers" id="6tm-Z5-9og"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odh-vT-DeY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1918" y="92"/>
+        </scene>
+        <!--Sign-->
+        <scene sceneID="JOr-b3-H7a">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Sign" id="h4J-n7-3Bm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="n9F-ty-YqQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="92O-DM-Tay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2764" y="330"/>
         </scene>
     </scenes>
     <resources>
