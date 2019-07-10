@@ -15,4 +15,3 @@ extension APIManager {
         return "http://13.209.125.140:3000" + path
     }
 }
-

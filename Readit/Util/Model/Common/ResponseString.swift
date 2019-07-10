@@ -19,4 +19,3 @@ struct Data: Codable {
     let accesstoken: String
     let refreshtoken: String
 }
-

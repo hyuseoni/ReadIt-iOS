@@ -144,4 +144,3 @@ struct AuthService: APIManager {
     }
 
 }
-
