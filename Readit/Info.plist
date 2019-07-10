@@ -20,10 +20,19 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-Compact-Display-Black</string>
+		<string>SF-Compact-Display-Bold</string>
+		<string>SF-Compact-Display-Regular</string>
+		<string>SF-Compact-Display-Medium</string>
+		<string>SF-Compact-Display-Heavy</string>
+		<string>SF-Compact-Display-Light</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>Sign</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
