@@ -15,6 +15,7 @@ extension UIView {
     func makeRounded(cornerRadius : CGFloat?){
         
         // UIView 의 모서리가 둥근 정도를 설정
+        
         if let cornerRadius_ = cornerRadius {
             self.layer.cornerRadius = cornerRadius_
         }  else {

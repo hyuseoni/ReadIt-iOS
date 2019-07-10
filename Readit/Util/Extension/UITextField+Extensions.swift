@@ -13,6 +13,7 @@ extension UITextField {
     
     func textFieldUnderLine(line : CGFloat?, color: UIColor?) {
         let border = CALayer()
+        
         let width = CGFloat(line!)
         
         border.borderColor = color?.cgColor
