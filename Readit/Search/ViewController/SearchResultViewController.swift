@@ -1,14 +1,14 @@
 //
-//  MypageProfileViewController.swift
+//  SearchResultViewController.swift
 //  Readit
 //
-//  Created by 황유선 on 07/07/2019.
+//  Created by 황유선 on 10/07/2019.
 //  Copyright © 2019 황유선. All rights reserved.
 //
 
 import UIKit
 
-class MypageProfileViewController: UIViewController {
+class SearchResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

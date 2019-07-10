@@ -1,14 +1,14 @@
 //
-//  MypageScrapTableViewCell.swift
+//  SearchResultTableViewCell.swift
 //  Readit
 //
-//  Created by 황유선 on 07/07/2019.
+//  Created by 황유선 on 10/07/2019.
 //  Copyright © 2019 황유선. All rights reserved.
 //
 
 import UIKit
 
-class MypageScrapTableViewCell: UITableViewCell {
+class SearchResultTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
