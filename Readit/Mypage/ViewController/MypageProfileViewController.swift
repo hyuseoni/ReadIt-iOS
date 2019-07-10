@@ -8,23 +8,33 @@
 
 import UIKit
 
-class MypageProfileViewController: UIViewController {
+class MypageProfileViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var nicknameField: UITextField!
+    @IBOutlet weak var completeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.profileImage.roundedImage()
+        self.nicknameField.textFieldUnderLine(line: 1.0, color: UIColor.grey)
+        nicknameField.becomeFirstResponder()
+        
+        completeButton.layer.cornerRadius = 4
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
-    */
+
+    @IBAction func backButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func completeButton(_ sender: UIButton) {
+    }
+    
+    
 
 }

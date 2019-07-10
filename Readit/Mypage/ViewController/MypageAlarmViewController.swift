@@ -10,21 +10,30 @@ import UIKit
 
 class MypageAlarmViewController: UIViewController {
 
+    @IBOutlet weak var topView: UIView!
+    
+    @IBOutlet weak var deviceSetLabel: UILabel!
+    @IBOutlet weak var deviceSetButton: UIButton!
+    
+    
+    @IBOutlet weak var pushAlarmSwitch: UISwitch!
+    @IBOutlet weak var readitTimeSwitch: UISwitch!
+    
+    @IBOutlet weak var readitTimeLabel1: UILabel!
+    @IBOutlet weak var readitTimeLabel2: UILabel!
+    @IBOutlet weak var alarmImage: UIImageView!
+    @IBOutlet weak var timeSetButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        topView.layer.borderWidth = 0.2
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func backButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
+    
+    
 
 }
